@@ -166,3 +166,5 @@ REST_FRAMEWORK = {
     # Disable Browsable API and Render JSON
     #'DEFAULT_RENDERER_CLASSES':('rest_framework.renderers.JSONRenderer',),
 }
+
+SESSION_COOKIE_AGE=1800
